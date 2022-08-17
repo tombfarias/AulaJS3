@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="header">
+        <div>
+            <h1>
+                Lista de Compras
+            </h1>
+        </div>
+    </header>
+    <section id="listaMaisForm">
+        <form id="form">
+            <input id="item" type="text" name="item" placeholder="Item" autocomplete="off" >
+            <input id="quantidade" type="number" name="quantidade" placeholder="Quantidade" min="1">
+            <input id="enviar" type="submit" value="Adicionar">
+        </form>
+        <div>
+            <ul id="lista">
+
+            </ul>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "nome": "Banana",
+      "quantidade": "3",
+      "id": 1
+    },
+    {
+      "nome": "Detergente",
+      "quantidade": "1",
+      "id": 2
+    }, 
+    {
+      "nome": "Maçã",
+      "quantidade": "1",
+      "id": 3
+    }
+  ]
+}
